@@ -50,11 +50,25 @@ This is the management of changes to documents, large web sit, and other collect
 > git add .
 
 **COMMITS->** Saves your file on git.
-> git commit -m "type any message"
+> git commit -m "type a message about what you are commiting"
 
 **PUSH->** upload git commit to remote repo like GitHub
 > git push
 
 **PULL->** Download changes from remote repo, to your local machine
+> git pull
+
+# GitHub Destop Vs CLI
+When i started using Github, I downloaded GitHub desktop to circumvent the CLI.
+I still find it much faster to commit and push changes to my projects using GitHub Desktop. for example to commitm and push a single file to my repository
+
+## Using GH Desktop:
+1. Click "commit to master"
+2. Click "push origin" button twice
+3. Done.
 
 
+  ### Using Command Line
+  1. git add filename
+  2. git commit
+  3. git push origin master.
